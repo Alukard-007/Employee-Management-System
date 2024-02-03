@@ -1,0 +1,5 @@
+EID   |       DOB      |   FirstName   |    LastName    |   Gender   |   Department   |   Salary   |   
+
+ 1    |   2006-03-30   |     Milan     |      Shah      |      M     |      ADMIN     |   500000   |   
+ 2    |   1999-04-01   |      Jack     |   Eisenhower   |      M     |      SALES     |   400000   |   
+ 3    |   2003-07-07   |    Alukard    |     Senior     |      M     |      SALES     |   125000   |   

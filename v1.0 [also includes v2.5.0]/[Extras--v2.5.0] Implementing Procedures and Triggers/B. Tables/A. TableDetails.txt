@@ -1,0 +1,29 @@
+1. EMSemployee: 
+This table stores the employee details, such as EID, date of birth, first name, last name, gender, department, and salary.
+
+2. Salary: 
+This table stores the salary details of employees, including basic salary, provident fund, overtime, other allowances, deductions, and net salary. It is linked to the EMSemployee table through foreign key constraints.
+
+3. Attendance: 
+This table stores the attendance details of employees on a monthly basis, including the number of working days in each month. It is linked to the EMSemployee table through foreign key constraints.
+
+4. MonthlySalary: 
+This table stores the final salary details of employees on a monthly basis. It is linked to the EMSemployee table through foreign key constraints.
+
+5. Leaves_Taken: 
+This table stores the details of leaves taken by employees, including the type of leave, start and end dates, reason, and approval status. It is linked to the EMSemployee table through foreign key constraints.
+
+6. Leave_Eligibility: 
+This table stores the maximum leave capacity and remaining leaves for each employee. It is linked to the EMSemployee table through foreign key constraints.
+
+7. Projects: 
+This table stores the details of projects, including project name, manager, start and end dates, status, and KPI(Key Performance Indicator) rating.
+
+8. Performance: 
+This table stores the performance details of employees on each project, including on-time completion, quality of work, and team contribution. It is linked to the EMSemployee and Projects tables through foreign key constraints.
+
+9. Department: 
+This table stores the department details, including name, status, description, head of department, total employees, budget, date created, and last updated timestamp.
+
+10. Audits: 
+This table stores the audit trail details, including the name of the table, transaction name, user name, and transaction date.

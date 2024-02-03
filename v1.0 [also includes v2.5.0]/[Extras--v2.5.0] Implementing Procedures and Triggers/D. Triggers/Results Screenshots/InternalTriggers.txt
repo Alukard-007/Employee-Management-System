@@ -1,0 +1,5 @@
+Result Screenshot No. 2: Generating Salary Report
+- Makes use of update_monthly_salary trigger and update_net_salary
+
+Result Screenshot No. 3: Generating Employee Performance Report
+- Makes use of kpi_rating trigger
